@@ -1,0 +1,142 @@
+
+
+
+
+/* Main Section  */
+
+
+.dynamic_text
+{
+  color:rgb(233, 84, 4);
+  font-size: 50px;
+  
+  
+}
+
+.who
+{
+  color: grey;
+  font-size: 50px;
+  width:50%;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+
+  
+}
+
+.my_info
+{
+  width: 50%;
+  color: black;
+  font-weight: 520;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  padding: 40px;
+  letter-spacing: 1px;
+  background-color: rgb(251, 246, 246);
+  margin: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 7);
+  
+  
+}
+
+
+
+
+.edu_title
+{
+  color: grey;
+  font-size: 50px;
+  width:50%;
+  align-items: center;
+  text-align: center;
+  font-weight: 700;
+ 
+
+}
+
+.dynamic_edu
+{
+  font-size: 50px;
+  color:rgb(233, 84, 4);
+}
+
+.edu_info
+{
+  width: 50%;
+  color: black;
+  font-weight: 520;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  justify-content: center;
+  padding: 40px;
+  letter-spacing: 1px;
+  margin: 40px;
+  background-color: rgb(251, 246, 246);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 7);
+  
+  
+}
+
+.main11{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.main22
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+main
+{
+  margin-top: 70px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 991px) {
+
+  .main11{
+    flex-direction: column;
+  }
+     
+  .who
+  {
+    margin-bottom: 40px;
+    width: 95%;
+  }
+  
+  .my_info
+  {
+    margin-bottom: 40px;
+    width: 90%;
+  
+  }
+
+  .main22{
+    flex-direction: column;
+  }
+     
+  .edu_title
+  {
+    margin-bottom: 40px;
+    width: 80%;
+  }
+  
+  .edu_info
+  {
+    margin-bottom: 40px;
+    width:  90%;
+  
+  }
+
+  }
